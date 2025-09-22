@@ -17,7 +17,7 @@
                 background-color: #212026;
                 display: flex;
                 align-items: center;
-                height: 20vh;
+                height: 17vh;
     
               }
               .header img {
@@ -57,15 +57,40 @@
               }
                .halfbody {
                 
-                display: flex;
-                
-                
+                display:flex;
+                background-image: url(smphouse.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 100vh;
               }
-              .halfbody img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-              }
+
+             .info{
+              background-color: rgba(77, 169, 218, 1);
+              position: relative;
+              left: 200px;
+              top: 500px;
+              display: flex;
+              align-self: flex-start;
+             
+              border-radius: 25px;
+              padding-right: 100px;
+              padding-bottom: 100px;
+             }
+             .info h1{
+              color:white;
+              font-family: "Fredoka", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 600;
+                font-style: normal;
+                font-variation-settings:
+                  "wdth" 100;
+                font-size: larger;
+             }
+             .halfbody a{
+              text-decoration: none;
+             }
+             
               
         </style>
     </head>
@@ -73,18 +98,18 @@
             <div class="header">
                 <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Global-Header_MCCB-Logo_300x51.svg" alt="minecraft">
                 <div class="navigation">
-                  <a href="Untitled-1.html"><span>Home</span></a> 
+                <a href="Untitled-1.html"><span>Home</span></a> 
                   <a href="Info.html"><span>Info</span></a>  
-                    <span>Why</span>
+                  <a href="Why.html"><span>Why</span></a>  
                   <a href="About_me.html"><span>About me</span></a> 
-                    <span>References</span>
+                  <a href="References.html"><span>References</span></a>  
                 </div>
             </div>
             <div class="halfbody">
-              <img src="smphouse.jpg" alt="minecraft">
-                <div class="home">
-                    
-                </div>
-            </div>
+              <a href="Info.html"> <div class="info">
+                  <h1>Why Minecraft?</h1>
+                  
+               </div>
+            </div></a>
                    
 </html>
